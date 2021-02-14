@@ -1,1 +1,27 @@
+title: Wolfgang Neumayer
+description: A blog about game development, data science, history and linguistics (eventually)
+
+email: wolfgang.neumayer91@gmail.com
+twitter_username: Wolololf
+
 theme: jekyll-theme-minimal
+
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-octicons
+  - jekyll-github-metadata
+
+titles_from_headings:
+  enabled:     true
+  strip_title: true
+  collections: true
+
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  math_engine: katex
+  input: GFM
+  auto_ids: true
+  hard_wrap: false
+  syntax_highlighter: rouge
